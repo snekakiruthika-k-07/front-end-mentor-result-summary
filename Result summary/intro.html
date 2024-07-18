@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Summary</title>
+    <style>
+        .container{
+            display:flex;  
+            flex-direction: row; 
+            margin:50px;
+           
+        }
+        .section1{
+            height:300px;
+            width:250px;
+            border-radius: 25px;
+            border-style: solid;
+            background: linear-gradient(135deg,blue,purple);
+            color:white;
+        }
+        .circle{
+            border-radius: 60px;
+            border-color:rgb(3, 3, 136) ;
+            border-style: solid;
+            height:100px;
+            width:100px;
+            background-color: rgb(3, 3, 136);
+        }
+        .circle p{
+            margin-top: -20px;
+        }
+        .section2{
+            border-radius: 25px;
+            border-style: solid;
+            width:250px;
+            border-color: white;
+        }
+        button{
+           border-radius: 25px;
+           border-style:solid ; 
+           padding:10px 25px 10px 25px;
+           background-color: rgb(51, 51, 51);
+           color:white;
+           border-color: rgb(51, 51, 51);
+           width:200px;
+           margin:10px;
+        }
+        .item1 p{
+            display:inline;
+        }
+        .item1{
+            border-radius: 10px;
+            border-style: solid;
+            background-color: rgb(255, 146, 146);
+            border-color: rgb(255, 146, 146);
+            height:25px;
+            width:200px;
+            margin:10px;
+        }
+        .item2 p{
+            display:inline;
+        }
+        .item2{
+            border-radius: 10px;
+            border-style: solid;
+            background-color: rgb(252, 245, 147);
+            border-color: rgb(252, 245, 147);
+            height:25px;
+            width:200px;
+            margin:10px;
+        }
+        .item3 p{
+            display:inline;
+        }
+        .item3{
+            border-radius: 10px;
+            border-style: solid;
+            background-color: rgb(146, 255, 146);
+            border-color: rgb(146, 255, 146);
+            height:25px;
+            width:200px;
+            margin:10px;
+        }
+        .item4 p{
+            display:inline;
+        }
+        .item4{
+            border-radius: 10px;
+            border-style: solid;
+            background-color: rgb(146, 202, 255);
+            border-color: rgb(146, 202, 255);
+            height:25px;
+            width:200px;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center>
+        <div class="section1">
+            <p>Your Result</p>
+            <div class="circle"> <h1><strong>76</strong></h1><p>of 100</p></div>
+           
+            <h2>Great</h2>
+            <p>You scored higher than 65% of<br>
+                 the people who have taken <br>these tests.</p>
+        </div>
+        </center>
+        <div class="section2">
+            <h2 style="margin-top:10px;">Summary</h2>
+            <div class="item1">
+                <p style="color:rgb(231, 26, 26);padding-left: 10px;padding-top:10px">Reaction</p><p style="padding-left:80px;">80/100</p>
+            </div>
+             <div class="item2">
+                <p style="color:rgb(219, 241, 12);padding-left: 10px;padding-top:10px">Memory</p><p style="padding-left:84px;">92/100</p>
+            </div>
+             <div class="item3">
+                <p style="color:rgb(8, 194, 101);padding-left: 10px;padding-top:10px">Verbal</p><p style="padding-left:95px;">61/100</p>
+            </div>
+             <div class="item4">
+                <p style="color:rgb(4, 6, 119);padding-left: 10px;padding-top:10px">Visual</p><p style="padding-left:95px;">72/100</p>
+            </div>
+            <button>Continue</button>
+        </div>
+    </div>
+</body>
+</html>
